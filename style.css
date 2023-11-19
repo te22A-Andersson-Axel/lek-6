@@ -37,7 +37,84 @@ main {
     text-align: center;
 }
 
+main H4 {
+    font-size: 30px;
+}
 
+main a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+main H2 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 75px;
+}
+
+main H3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+main img {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+}
+main H1 {
+    padding-top: 60px;
+    font-size: 45px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+    font-size: 25px;
+}
+
+ol {
+    text-align: left;
+}
+
+.ingredienser1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 250px;
+    text-align: center;
+}
+
+.ingredienser2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 250px;
+    text-align: center;
+}
+
+
+.ingredienser1 img {
+    height: 300px;
+    width: 300px;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+.ingredienser2 img {
+    height: 300px;
+    width: 300px;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+
+
+ul li:before{ content:"• "; font-size:20pt;}
+
+ol li{font-size: 30px; padding: 30px 0px;}
 
 .hemsida {
     display: grid;
